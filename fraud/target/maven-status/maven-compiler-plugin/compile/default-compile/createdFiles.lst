@@ -1,0 +1,7 @@
+com/kalu/fraud/repository/FraudCheckHistoryRepository.class
+com/kalu/fraud/model/FraudCheckHistory.class
+com/kalu/fraud/FraudApplication.class
+com/kalu/fraud/model/response/FraudCheckResponse.class
+com/kalu/fraud/controller/FraudController.class
+com/kalu/fraud/model/FraudCheckHistory$FraudCheckHistoryBuilder.class
+com/kalu/fraud/FraudCheckService.class

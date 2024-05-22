@@ -1,0 +1,8 @@
+/Users/lmacharia/luka/microservices-1/customer/src/main/java/com/kalu/customer/service/CustomerService.java
+/Users/lmacharia/luka/microservices-1/customer/src/main/java/com/kalu/customer/CustomerApplication.java
+/Users/lmacharia/luka/microservices-1/customer/src/main/java/com/kalu/customer/model/response/FraudCheckResponse.java
+/Users/lmacharia/luka/microservices-1/customer/src/main/java/com/kalu/customer/model/Customer.java
+/Users/lmacharia/luka/microservices-1/customer/src/main/java/com/kalu/customer/CustomerRepository.java
+/Users/lmacharia/luka/microservices-1/customer/src/main/java/com/kalu/customer/configuration/CustomerConfig.java
+/Users/lmacharia/luka/microservices-1/customer/src/main/java/com/kalu/customer/controller/CustomerController.java
+/Users/lmacharia/luka/microservices-1/customer/src/main/java/com/kalu/customer/model/request/CustomerRegistrationRequest.java
