@@ -1,7 +1,10 @@
 package com.kalu.customer.controller;
 
 
+import com.kalu.customer.model.request.CustomerRegistrationRequest;
+import com.kalu.customer.service.CustomerService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,10 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 @RequestMapping("api/v1/customers")
-public record CustomerController() {
+public record CustomerController(CustomerService customerService) {
 
 
-    public void registerCustomer(@RequestBody  CustomerRequest customerRequest ){
-        log.info("new customer registration {}", customerRequest);
+
+    @PostMapping
+    public void registerCustomer(@RequestBody CustomerRegistrationRequest customerRegistrationRequest) {
+        log.info("new customer registration {}", customerRegistrationRequest);
+        customerService.registerCustomer(customerRegistrationRequest);
     }
 }
